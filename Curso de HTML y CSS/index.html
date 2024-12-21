@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>AppDePerros</title>
+        
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Luckiest+Guy&display=swap" rel="stylesheet">
+        
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <h1 font style="color: rgb(18, 118, 205);" >AppDePerros</h1>
+    <main>
+      <h2>Imagenes de Perritos: </h2> 
+      <!-- TODO: Agregar enlace a imagenes de gatos -->
+      <p>Haz click aqui para ver mas <a href="#" target="_blank" rel="noopener noreferrer">imagenes de perritos.</a></p>
+
+      <a href="#parrafo-1">Parrafo 1</a>
+      <a href="#parrafo-2">Parrafo 2</a>
+      <a href="#parrafo-3">Parrafo 3</a>
+      <br>
+
+      <a href="#" target="_blank" rel="noopener noreferrer"><img src="Zeus.jpeg" class="imagen-de-perrito" alt="Un lindo perrito"></a>
+
+      <hr>
+
+      <h3>Lista de Perros</h3>
+
+      <div id="cosas-que-los-perros-aman">
+        <p>Cosas que los perros <em><strong>aman</strong></em>: </p>
+          <ul class="lista-de-perros">
+            <li>Comer pollito</li>
+            <li><s>Dormir cerca tuyo</s></li>
+            <li>Jugar contigo o con tus cosas</li>
+          </ul>
+      </div>
+        <img src="Pollito.jpeg" alt="Pollo al vapor">
+
+        <hr>
+        <div id="cosas-que-los-perros-odian">
+        <p>Cosas que los perros <strong>odian</strong>: </p>
+          <ol class="lista-de-perros">
+            <li>Tratamiento antipulgas</li>
+            <li>Fuegos artificiales</li>
+            <li>Abrazos muy seguidos</li>
+          </ol>
+      </div>
+
+        <img src="Roncita.jpeg" alt="Perrita sentada en una silla">
+
+        <hr>
+
+      <h3 id="parrafo-1">Parrafo 1</h3>
+      <p></p>
+      <h4 id="parrafo-2">Parrafo 2</h4>
+      <p></p>
+      <h5 id="parrafo-3">Parrafo 3</h5>
+      <p></p>
+
+      <form action="/enviar-respuesta">
+        <!--Botones de Radios-->
+        <label for="interior">
+          <input id="interior" type="radio" value="interior" name="interior-exterior" checked>Interior
+        </label>
+        <br>
+        <label for="exterior">
+          <input id="exterior" type="radio" valu="exterior" name="interior-exterior">Exterior
+        </label><br>
+        
+        <!--Casillas de Verificacion-->
+        <label for="carinoso">
+          <input type="checkbox" valu="carinoso" name="personalidad" checked>Cariñoso
+        </label>
+        <label for="perezoso">
+          <input type="checkbox" valu="perezoso" name="personalidad">Perezoso
+        </label>
+        <label for="energico">
+          <input type="checkbox" value="energico" name="personalidad">Energico
+        </label><br>
+
+        <!--Texto y Boton para enviar-->
+        <input type="text" placeholder="URL de la foto de tu perrito" required>
+        <button type="submit">Enviar</button>
+      </form>
+
+    </main>
+
+    <!--Pie de Pagina-->
+    <footer>
+      <p><small>Sin Derechos de Autor</small></p>
+    </footer>
+
+  </body>
+</html>

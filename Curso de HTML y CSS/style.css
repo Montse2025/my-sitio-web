@@ -1,0 +1,68 @@
+body {
+  color: aliceblue;
+}
+h3{
+  color: rgb(10, 56, 97);
+  font-size: 20px;
+}
+h4{
+  color: rgb(10, 56, 97);
+  font-size: 20px;
+}
+h5{
+  color: rgb(10, 56, 97);
+  font-size: 20px;
+}
+
+.lista-de-perros{
+  color: rgb(16, 70, 60);
+}
+
+h1{
+    
+    font-family: "Edu AU VIC WA NT Pre", cursive;
+  
+    font-size: 55px;
+    background-color: silver;
+}
+ h2{
+  font-size: 25px;
+  color: rgb(17, 65, 107);
+ }
+
+ p,
+ ul,
+ ol{
+  font-size: 15px;
+ }
+
+ .imagen-de-perrito {
+  border: black;
+  margin: 15px 20px;
+  padding: 30px 15px 20px 15px;
+  width: 400px;
+ }
+
+ img{
+  width: 200px
+ }
+
+ div{
+  background-color: aliceblue;
+ }
+ #cosas-que-los-perros-aman{
+  background-color: silver;
+ }
+ #cosas-que-los-perros-odian{
+  background-color: silver;
+ }
+
+ input[type="radio"]{
+  margin: 5px;
+ }
+ input[type="text"]{
+  margin: 8px;
+ }
+ a[href="#"]{
+ text-decoration: none;
+ }
